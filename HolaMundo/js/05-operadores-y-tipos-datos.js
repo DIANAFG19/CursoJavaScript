@@ -35,3 +35,10 @@ console.log(parseFloat(numero_falso) + 7);
 console.log(numero_entero + 4);
 console.log(String(numero_entero) + 4);
 
+
+// PARA SABER EL TIPO DE DATO DE UNA VARIABLE -> TYPEOF
+console.log(typeof numero_entero);
+console.log(typeof cadena_texto);
+console.log(typeof booleano);
+console.log(typeof numero_decimal);
+
