@@ -27,3 +27,29 @@ if (edad >= 18) {
 }
 
 
+// OPERADORES LÓGICOS
+/*
+	AND (Y): &&
+	OR (O): ||
+	NOT: !
+*/
+
+var year = 2022;
+
+// Ejemplo con NOT
+if (year != 2023) {
+	console.log("El año no es 2023, realmente es " + year + ".");
+}
+
+// Ejemplo con AND
+if (year >= 2000 && year <= 2023) {
+	console.log("El año está entre 2000 y 2023.");
+}
+
+// Ejemplo con OR
+if (year == 2012 || year == 2022) {
+	console.log("El año termina en 2.");
+}
+
+
+
