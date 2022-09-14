@@ -21,3 +21,4 @@ do {
 
 alert("La duma de todos los números es " + suma);
 alert("La media de todos los números es " + (suma / contador));
+
