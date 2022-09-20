@@ -13,7 +13,35 @@ function calculadoraPrueba () {
 
 //console.log(calculadora());
 
-function calculadora (numero1, numero2, mostrar = false) {
+function consola(numero1, numero2) {
+	console.log("Suma: " + (numero1 + numero2));
+	console.log("Resta: " + (numero1 - numero2));
+	console.log("Multiplicación: " + (numero1 * numero2));
+	console.log("División: " + (numero1 / numero2));
+	console.log("**************************************");
+}
+
+function pantalla(numero1, numero2) {
+	document.write("Suma: " + (numero1 + numero2) + "<br/>");
+	document.write("Resta: " + (numero1 - numero2) + "<br/>");
+	document.write("Multiplicación: " + (numero1 * numero2) + "<br/>");
+	document.write("División: " + (numero1 / numero2) + "<br/>");
+	document.write("**************************************");
+}
+
+function calculadora(numero1, numero2, mostrar = false) {
+	if (!mostrar) {
+		consola(numero1, numero2);
+	} else {
+		pantalla(numero1, numero2);
+	}
+	return true;
+}
+
+calculadora(12, 6);
+calculadora(20, 5, true);
+
+/*function calculadora (numero1, numero2, mostrar = false) {
 	if (!mostrar) {
 		console.log("Suma: " + (numero1 + numero2));
 		console.log("Resta: " + (numero1 - numero2));
@@ -32,10 +60,8 @@ function calculadora (numero1, numero2, mostrar = false) {
 	
 
 	//return "Soy la calculadora.";
-}
+}*/
 
-calculadora(12, 6);
-calculadora(20, 5, true);
 
 /*for (var i = 1; i <= 10; i++) {
 	calculadora(i, 7);
