@@ -23,3 +23,15 @@ sumame(
 		console.log("La suma por dos es ", (dato * 2));
 	}
 );
+
+// FUNCIONES FLECHA
+sumame(
+	12,
+	70, 
+	(dato) => {
+		console.log("La suma es ", dato);
+	},
+	(dato) => {
+		console.log("La suma por dos es ", (dato * 2));
+	}
+);
