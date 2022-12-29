@@ -36,7 +36,7 @@
         }
     }
 
-    function puedeDisenarArea(xCoordenada, yCoordenada){
+     function puedeDisenarArea(xCoordenada, yCoordenada){
         if ((xCoordenada >= 0 && xCoordenada < (3 * tamanoCuadrados + 5)) && 
             (yCoordenada >= 0 && yCoordenada < (tamanoCuadrados + 5))) {
             return false;
@@ -44,7 +44,7 @@
             return true;
         }
     }
-
+   
     function capturarMovimientoDelMouse(evento){
         var x = evento.pageX - pantalla.offsetLeft;
         var y = evento.pageY - pantalla.offsetTop;
