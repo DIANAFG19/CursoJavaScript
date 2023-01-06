@@ -92,7 +92,7 @@ body {
     margin: 0 auto;
 }
 
-.items:before{
+.items:before {
     content:"★"
 }
 
