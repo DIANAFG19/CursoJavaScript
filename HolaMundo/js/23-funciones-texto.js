@@ -1,6 +1,6 @@
 'use strict'
 
-///////////// TRANSFORMACIÓN DE TEXTOS.
+////////////////////////// TRANSFORMACIÓN DE TEXTOS //////////////////////////
 var numero = 444;
 var texto1 = "Bienvenido al curso de JavaScript, curso de Diana Flores, ";
 var texto2 = "es muy buen curso";
@@ -30,7 +30,7 @@ textoTotal = texto1.concat(" hola " + texto2);
 console.log(textoTotal);
 
 
-///////////// MÉTODOS DE BÚSQUEDA
+////////////////////////// MÉTODOS DE BÚSQUEDA //////////////////////////
 var busqueda = texto1.indexOf("curso");
 console.log(busqueda);
 
@@ -63,3 +63,20 @@ console.log(busqueda);
 
 busqueda = texto1.includes("JavaScript");
 console.log(busqueda);
+
+////////////////////////// FUNCIONES DE REEMPLAZO //////////////////////////
+busqueda = texto1.replace("JavaScript", "Nuevo texto");
+console.log(busqueda);
+
+busqueda = texto1.slice(14, 22);
+console.log(busqueda);
+
+busqueda = texto1.split(" ");
+console.log(busqueda);
+
+var texto3 = "           Bienvenido al curso de JavaScript.     ";
+console.log(texto3);
+busqueda = texto3.trim();
+console.log(busqueda);
+
+
