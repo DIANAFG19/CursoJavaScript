@@ -79,4 +79,3 @@ console.log(texto3);
 busqueda = texto3.trim();
 console.log(busqueda);
 
-
